@@ -1,0 +1,167 @@
+
+:root{
+	--green-bg-img: url("https://github.com/Pandry/anki-polygon-theme/blob/main/img/backgrounds/01.jpg?raw=true");
+	--blue-bg-img: url("https://github.com/Pandry/anki-polygon-theme/blob/main/img/backgrounds/02.jpg?raw=true");
+	--purple-bg-img: url("https://github.com/Pandry/anki-polygon-theme/blob/main/img/backgrounds/03.jpg?raw=true");
+	--red-bg-img: url("https://github.com/Pandry/anki-polygon-theme/blob/main/img/backgrounds/04.jpg?raw=true");
+	--yellow-bg-img: url("https://github.com/Pandry/anki-polygon-theme/blob/main/img/backgrounds/05.jpg?raw=true");
+	--bg: var(--green-bg-img);
+
+    --green-bg-color: #18adab;
+
+
+    --blue-fg-color: #016ea6;
+
+    /*Front background color*/
+    --front-bg-color: var(--green-bg-color);
+    --front-fg-color: #fff;
+
+    /*Back foreground color*/
+    --back-fg-color: var(--blue-fg-color);
+    --back-bg-color: #fff;
+
+
+}
+
+ruby rt {
+ visibility: hidden;
+}
+ 
+ruby:hover rt {
+ visibility: visible;
+}
+ 
+.card {
+ font-family: Noto Sans CJK JP Regular;
+ font-size: 50px;
+ text-align: center;
+ color: black;
+ background: var(--bg);
+}
+ 
+.android .card {
+ font-family: Noto Sans CJK JP Regular;
+ font-size: 30px;
+ text-align: center;
+ color: black;
+ background: var(--bg);
+}
+ 
+.frontbg {
+ background-color: var(--front-bg-color);
+ border-radius: 7px;
+ color: var(--front-fg-color);
+ position: relative;
+ left: 0;
+}
+ 
+.engdefbg {
+ font-family: Raleway;
+ font-style: italic;
+ padding: 15px;
+ margin-left: -5px;
+ margin-top: -15px;
+ color: var(--bg);
+ font-size: 15px;
+}
+ 
+.android .engdefbg {
+ font-family: Raleway;
+ font-style: italic;
+ padding: 15px;
+ margin-left: -15px;
+ margin-top: -20px;
+ color: var(--bg);
+ font-size: 10px;
+}
+ 
+.others {
+ position: relative;
+ top: 15px;
+ border: 1px dotted #72c8e1;
+ color: var(--bg);
+ font-size: 20px;
+ width: auto;
+ padding-top: 15px;
+ padding-left: 20px;
+ padding-bottom: 15px;
+ padding-right: 20px;
+ margin-bottom: 35px;
+}
+ 
+.android .others {
+ position: relative;
+ top: 10px;
+ border: 1px dotted #72c8e1;
+ color: var(--bg);
+ font-size: 17px;
+ width: auto;
+ padding-top: 8px;
+ padding-left: 15px;
+ padding-bottom: 8px;
+ padding-right: 15px;
+ margin-bottom: 20px;
+}
+ 
+.sentence {
+ font-size: 25px;
+ margin-top: -20px;
+ margin-bottom: 5px;
+}
+ 
+.android .sentence {
+ font-size: 17px;
+ margin-top: -15px;
+}
+ 
+.backbg {
+ position: relative;
+ top: -3px;
+ background-color: var(--back-bg-color);
+ padding: 15px;
+ padding-bottom: 15px;
+ padding-left: 30px;
+ padding-right: 30px;
+ border-radius: 0px 0px 10px 10px;
+ color: var(--back-fg-color);
+ font-size: 28px;
+ text-align: left;
+}
+ 
+.android .backbg {
+ position: relative;
+ top: -5px;
+ background-color: var(--back-bg-color);
+ padding: 15px;
+ padding-bottom: 15px;
+ padding-left: 15px;
+ padding-right: 15px;
+ border-radius: 0px 0px 10px 10px;
+ color: var(--back-fg-color);
+ font-size: 20px;
+ text-align: left;
+}
+ 
+.hira {
+ font-size: 25px;
+ line-height: 5px;
+ padding-bottom: 40px;
+}
+ 
+.android .hira {
+ font-size: 18px;
+ line-height: 5px;
+ padding-bottom: 25px;
+}
+ 
+hr {
+ height: 2px;
+ font-size: 30px;
+ border: 0;
+ background: #72c8e1;
+}
+ 
+u {
+ text-decoration: none;
+ border-bottom: 1px dotted;
+}
